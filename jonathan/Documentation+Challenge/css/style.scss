@@ -1,0 +1,85 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url("img/webb.png")
+}
+
+header
+{
+	font-size: 110%;
+}
+
+
+main
+{
+	.contentContainer
+	{
+		
+		min-height: 300px;
+
+	}
+
+	.userdiv
+	{
+		border: solid 2px;
+		border-radius: 5px;
+
+		background-color: white;
+
+
+
+		.heartdiv
+		{
+			width: 50%;
+			position: absolute;
+			z-index: 99;
+
+			.heartimage
+			{
+				width: 40%;
+				margin: 5%;
+				
+			}
+		}
+
+		.userimagediv
+		{
+			position:relative;
+			z-index:1;
+			.userimage
+			{
+				width: 100%;
+				margin: 1%;
+			}
+
+
+		}
+
+		.userquotediv
+		{
+			
+			border-radius: 5px;
+			width: 100%;
+			background-color: rgba(0,0,0,0.2);
+			.userquote
+			{
+				
+				min-height: 80px;
+				text-align: center;
+				padding-top: 5%;
+			}
+		}
+	}
+
+}
+
+#green
+{
+	width: 500%;
+}
